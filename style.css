@@ -1,9 +1,11 @@
+/* Seletor Universal */
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Seletor de Tags */
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #eaf6f8;
@@ -96,6 +98,7 @@ label {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Seletor de classe e um seletor de classe compartilhado também */
 .campo,
 .opção,
 .areadetexto {
@@ -125,6 +128,7 @@ label {
     box-shadow: 0 3px 10px #ccc;
 }
 
+/* Seletor de ID*/
 #sobre {
     background-color: #eefdffdb;
     border-radius: 8px;
@@ -141,6 +145,7 @@ label {
     padding: 24px;
 }
 
+/* Seletor compartilhado */
 h1,h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1a1a1a;
