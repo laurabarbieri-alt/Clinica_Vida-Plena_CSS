@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #eaf6f8;
     color: #333;
     margin: 0;
@@ -45,6 +45,7 @@ h2 {
     color: #167d8d;
     text-align:left;
     padding: 0px 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -115,6 +116,15 @@ label {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+.caixa {
+    background-color: rgb(230, 255, 253);
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
 #sobre {
     background-color: #eefdffdb;
     border-radius: 8px;
@@ -129,4 +139,9 @@ label {
     background-color: #eefdffdb;
     border-radius: 8px;
     padding: 24px;
+}
+
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1a1a1a;
 }
