@@ -75,3 +75,58 @@ footer {
     background-color: #167d8d;
     padding: 24px 16px;
 }
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #217c72;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.campo,
+.opção,
+.areadetexto {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border: 1px solid #b8dfe4;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.formulário {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobre {
+    background-color: #eefdffdb;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#pe {
+     padding: 24px 0px;
+}
+
+#agendamento {
+    background-color: #eefdffdb;
+    border-radius: 8px;
+    padding: 24px;
+}
